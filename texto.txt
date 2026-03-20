@@ -1,0 +1,29 @@
+1- Criei repositorio no GitHub: hello
+
+2- Fazer aula04, e da um git clone do repositorio: git clone https://github.com/iramaceber/hello;
+
+3- Da pnpm init dentro da pasta do repositorio: pasta hello => pnpm init;
+
+4- Mudar em package.json o "name" para seu usuário do npm: "@iramaceber/hello";
+"license": "MIT"
+
+5- git add * && git commit -m ""
+
+6- git tag v0.1.0
+git push origin --tags
+pnpm publish --access public 
+
+7- pnpm login
+pnpm publish --access public 
+pnpm publish --dry-run
+pnpm publish --access public --dry-run
+
+8- Instalar o pacote em test-hello: pnpm install @iramaceber/hello
+
+9- Adicionar uma 2° tag: git tag v0.2.0
+git push origin --tags
+pnpm publish --access public 
+
+Apagar tag: git tag -d "tag"
+
+10- pnpm version patch
