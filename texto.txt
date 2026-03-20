@@ -22,7 +22,7 @@ pnpm publish --access public --dry-run
 
 9- Adicionar uma 2° tag: git tag v0.2.0
 git push origin --tags
-pnpm publish --access public 
+Publicar a tag no npm: pnpm publish --access public 
 
 Apagar tag: git tag -d "tag"
 
